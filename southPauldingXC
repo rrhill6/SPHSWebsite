@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+  <meta charset="UTF-8">
+  <title>South Paulding XC Track</title>
+  <link rel="stylesheet" type="text/css" href="southPauldingStyleSheet.css"/>
+</head>
+
+<body>
+<div class="banner">
+  <h1>South Paulding Cross-Country & Track</h1>
+</div>
+<div>
+  <nav>
+    <p>buttons</p>
+  </nav>
+</div>
+
+<div class="news">
+  <p>Picture with information here. Use article format?</p>
+  <p>Float pic to left?</p>
+</div>
+
+<div class="schedule">
+  <p>schedule or other information.</p>
+  <p>Put a table, list or a link (pdf)for the schedule.</p>
+</div>
+
+<div class="records">
+  <p>Records and links to milesplit.</p>
+  <p>List here. </p>
+</div>
+
+<div class="coaches">
+  <p>Coaches information. </p>
+</div>
+
+<div class="contact">
+  <p>contact and social media links.</p>
+  <p>Contact form goes here. </p>
+</div>
+
+
+</body>
+
+</html>

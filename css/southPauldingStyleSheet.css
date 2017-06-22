@@ -1,0 +1,230 @@
+body {
+  background-color: #800000;
+  max-width: 100%vw;
+  font-size: 1em;
+}
+
+/* banner picture and title with nav bar */
+#wrapper {
+  margin: 0 auto;
+  background-color: #BFBFBF;
+  padding: 10px;
+  height: 50%;
+  width: 90%;
+  border: 3px #000 solid;
+}
+
+/*SPHS background picture and sizing for header rules  */
+header {
+  padding: 35px 10px;
+  background-image: url(../sphsPics/bannerSpartan.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 355px 355px;
+}
+
+/* header font rules for the main tag  */
+header {
+    font-family: 'Ruslan Display', cursive;
+    text-shadow: 3px 3px #000;
+    text-align: center;
+    color: #FFB019;
+}
+header h1 {
+  text-transform: uppercase;
+  font-size: 3.5em;
+  line height: 10px;
+}
+
+/*Text rules for secondary tag line  */
+header h2 {
+  font-variant: small-caps;
+  font-size: 3em;
+}
+
+/*nav bar background and sizing rules  */
+.main_menu {
+  padding: 15px 0 15px 0;
+  text-align: center;
+  background-color: #800000;
+}
+
+/*setting the nav bar margin and this is still not right,
+need it to be more responsive!!!    */
+.main_menu ul{
+  margin-top: 75%;
+}
+
+/*Nav bar "button" rules    */
+.main_menu li {
+  display: inline;
+  padding: 10px;
+  font-size: 1.3em;
+}
+
+/* Nav bar link rules  */
+.main_menu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  font-variant: small-caps;
+}
+
+/* adding some color for the nav "buttons" onhover only   */
+.main_menu a:hover {
+  color: #FFB019;
+}
+
+/* Setting the content container size rules  */
+#container {
+  padding: 40px;
+  margin: 0px auto;
+  max-width: 85%;
+}
+
+#container h2 {
+  font-size: 2.2em;
+  font-family: 'Rokkitt', serif;
+  text-align: left;
+  padding: 10px 30px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+#container p {
+  font-size: 1.4em;
+  font-family: 'Rokkitt', serif;
+  text-align: left;
+  padding: 0px 50px 0px;
+  color: #000;
+}
+
+/*all the divs getting some rules and the background picture effect   */
+#news, #schedule, #photos, #coaches, #contact, #records, #links {
+  background-color: #fff;
+  background-image: url('../sphsPics/sphsSpartanLogo1.png');
+  background-attachment: fixed;
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px #000 solid;
+  margin-bottom: 40px;
+}
+
+
+/* to top of page link  */
+.top {
+  font-size: 1.4em;
+  color: #800000;
+  padding: 4px;
+  text-decoration: none;
+  margin: 0 500px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background-color:  #FFB019;
+}
+
+
+/* rules for the schedule list
+need to get this looking better...tabs or accordian??? */
+#news ul {
+  list-style-type: none;
+  border: none;
+  margin:10px 30px;
+  padding: 10px 40px;
+}
+
+#news li {
+  text-align: left;
+  font-size: 1.4em;
+  font-family: 'Rokkitt' serif;
+
+}
+
+#schedule ul {
+  list-style-type: none;
+  border: none;
+  margin: 10px 50px;
+  padding: 10px 40px;
+}
+
+#schedule li {
+  text-align: center;
+  font-size: 1.4em;
+  font-family: 'Rokkitt', serif;
+  padding: 5px auto;
+}
+
+.meetPhotos {
+  height: 600px;
+  max-height: 75%;
+  width: 600px;
+  max-width: 75%;
+  padding: 2% 25%;
+}
+
+/*rules for buttons, need to be looked at later...   */
+button {
+  background-color: #BFBFBF;
+  border: solid #000 1px;
+}
+
+.left {
+  width: 5%;
+  margin: 1% 0% 3% 45%;
+}
+
+.right {
+  width: 5%;
+  margin: 1% 35% 3% 0%;
+}
+
+#contact table {
+  padding: 2%;
+  margin: 20px auto;
+}
+
+#contact table td{
+  padding: 20px;
+  text-align: center center;
+}
+
+
+/*Rules for the links portion*/
+.importantLinks {
+  list-style-type: none;
+  border: none;
+}
+
+.importantLinks li {
+  text-align: justify;
+}
+
+.importantLinks a {
+  text-decoration: none;
+  color: #000
+}
+
+
+/*Rules for footer stuff   */
+
+footer {
+  font-family: 'Rokkitt', serif;
+  text-align: left;
+  color: #000;
+}
+
+h3 {
+  font-size: 1.8em;
+  padding: 10px 40px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.4em;
+  padding: 0px 50px;
+}
+
+a {
+  font-size: 1.2em;
+}
